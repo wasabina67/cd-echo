@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 # cd-echo
+function cd() {
+    builtin cd "$@"
+}
