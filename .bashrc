@@ -119,4 +119,7 @@ fi
 # cd-echo
 function cd() {
     builtin cd "$@"
+    if [ "$PWD" = "/home/user" ]; then
+        echo "This is your directory."
+    fi
 }
