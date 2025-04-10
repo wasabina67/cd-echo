@@ -9,3 +9,5 @@ build:
 	$(BUILD)
 run:
 	$(RUN)
+
+.PHONY: build run
